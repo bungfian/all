@@ -1,0 +1,5 @@
+div#energysaving,div#energysaving *{border:0;background-color:#fcfcfc;opacity:.99;}
+div#energysaving{margin:0;padding:0;position:absolute;left:50%;top:50%;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);text-align:center;z-index:999999;}
+@media screen{body>div#energysaving{position:fixed;}}
+div#energysaving p{margin:0;padding:0;width:100%;font-size:20px;color:#333;position:relative;top:40%;line-height:20px;font-weight:bold;text-align:center;text-shadow:none;}
+div#energysaving p span{color:#555;font-size:14px;font-weight:normal;}
